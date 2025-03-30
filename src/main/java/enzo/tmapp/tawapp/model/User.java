@@ -3,6 +3,7 @@ package enzo.tmapp.tawapp.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
@@ -46,4 +47,5 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
